@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+    height: 1080;
+    width: 1920;
+}
+body{
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: #212121;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: none;
+    text-align: center;
+}
+
+i{
+    font-size: 24px;
+    color: white;
+    align-items: center;
+
+}
+
+ul{
+    display:inline-block;
+    margin: -5px;
+    list-style: none;
+}
+li{
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
+
+a:any-link{
+    color: white;
+}
+a:-webkit-any-link{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
+
+/* Hace que los iconos cambien cuando se pone el raton encima */
+
+i:hover{
+    color: red;
+}
+
+/* Hace que la imagen cambie cuando se pone el raton encima */
+img{
+    opacity: 0.5;
+    filter: blur(5px);
+}
+img:hover{
+    opacity:1;
+    filter: blur(0px);
+    transform: scale(1.03)
+}
+/* FORMATO DE LAS IMAGENES*/
+
+.imagenes{
+
+    position: absolute;
+    margin-bottom:-40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
